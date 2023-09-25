@@ -13,7 +13,7 @@ class AudioClassificationApp(QMainWindow):
         self.setWindowTitle("Audio Classification")
 
         # Load your trained model
-        self.model = load_model(r'C:\Users\shyam\Downloads\6th_sem\Audio-Classification-main\saved_models\audio_classification.hdf5')
+        self.model = load_model(r'C:savedmodelpath.hdf5')
 
         # Create a LabelEncoder instance
         self.labelencoder = LabelEncoder()
